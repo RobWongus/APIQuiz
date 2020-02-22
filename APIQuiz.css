@@ -4,7 +4,7 @@ body {
 }
 
 a {
-    color: rgb(155, 23, 155);
+    color: rgb(33, 144, 218);
     text-decoration: none;
     font-weight: 300;
     text-size-adjust: none;
@@ -23,6 +23,11 @@ a:hover {
       
   }
   
+.card {
+    border-color: green;
+    border-width: thick;
+}
+
   .row {
       padding-left: 20px;
   }
@@ -54,14 +59,15 @@ h1 {
     align-items: center;
 }
 
-.startquiz {
-    background-color: green;
-    margin: 6px;
-    align-items: center;
 
-}
 
 h2 {
     align-items: center;
     padding-right: 300px;
+}
+
+.submit {
+    background-color: mediumblue;
+    color: white;
+    border-color: none;
 }

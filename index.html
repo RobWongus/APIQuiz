@@ -11,18 +11,20 @@
 <body>
     <div class="scores" id="highscores"><a href="highscores.html">View Highscores</a></div>
     <div class="timer">Time: <span id="time">0</span></div>
+    
     <h1>Welcome To The Coding Quiz</h1>
     
     <div class="container">
         <div class ="row">
             <div class="col-lg-11">
-    <div class="card">
+        <div class="card" id="card">
         <div class="card-body">
-            <p>Answer these multiple choice questions code-related questions best as possible. This quiz is timed and your score will be given at the end. This quiz is timed.</p>
-            <button type="button" class="btn btn-primary btn-lg" id="startquiz">Lets Begin</button>
+            <p>Answer these multiple choice questions code-related questions best as possible. This quiz is timed and your score will be given at the end.Good luck and have fun out there.</p>
+            <button type="button" class="btn btn-primary btn-md id="letsBegin" onclick="myFunction()">Lets Begin</button>
         </div>
-      </div>
+        </div>
     </div>
+    
     <div id="end-screen" class="hide" class="container">
         <div class= "col-md-12">
         <h2>All done!</h2>
@@ -37,5 +39,6 @@
     </div>
 
    <script src="./APIQuiz.js"></script> 
+   <script src="Questions.js"></script>
 </body>
 </html>
