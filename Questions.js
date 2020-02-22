@@ -32,36 +32,3 @@ let questions = [
       answer: "console.log"
     }
   ];
-
-var currentQuestionIndex = 0;
-let time = questions.length * 20;
-let timerId;
-
-  
-  let questions = document.getElementById("questions");
-  var timerEl = document.getElementById("time");
-  let choicesEl = document.getElementById("choices");
-  let submitBtn = document.getElementById("submit");
-  let startBtn = document.getElementById("start");
-  let initialsEl = document.getElementById("initials");
-  let feedbackEl = document.getElementById("feedback");
-  
-  
-
-startBtn.addEventListener('click', function() {
-    let answers
-  for (i = 0; i < questions.length; i++) {
-        answers = prompt(questions[i].title)
-        
-  }
-
-}
-);
-
-@media screen and (max-width: 500px) {
-    .column {
-      width: 100%;
-    }
-  }
-
-

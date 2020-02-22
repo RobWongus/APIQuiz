@@ -1,1 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="APIQuiz.css" />
+    <source src="APIQuiz.js" type="APIQuiz.js">
+    <title>Coding Quiz</title>
+</head>
+<body>
+    <div class="scores" id="highscores"><a href="highscores.html">View Highscores</a></div>
+    <div class="timer">Time: <span id="time">0</span></div>
+    <h1>Welcome To The Coding Quiz</h1>
+    
+    <div class="container">
+        <div class ="row">
+            <div class="col-lg-11">
+    <div class="card">
+        <div class="card-body">
+            <p>Answer these multiple choice questions code-related questions best as possible. This quiz is timed and your score will be given at the end. This quiz is timed.</p>
+            <button type="button" class="btn btn-primary btn-lg" id="startquiz">Lets Begin</button>
+        </div>
+      </div>
+    </div>
+    <div id="end-screen" class="hide" class="container">
+        <div class= "col-md-12">
+        <h2>All done!</h2>
+        <p>Your final score is <span id="final-score"></span>.</p>
+        <p>
+          Enter initials: <input type="text" id="initials" max="3" />
+          <button id="submit">Submit</button>
+        </p>
+      </div>
 
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+
+   <script src="./APIQuiz.js"></script> 
+</body>
+</html>
